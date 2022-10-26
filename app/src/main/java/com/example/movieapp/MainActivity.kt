@@ -32,7 +32,10 @@ class MainActivity : AppCompatActivity() {
             populateMovies()
 
             val mainActivity = this
-            binding.
+            binding.recyclerView.apply {
+                layoutManager = GridLayoutManager(applicationContext, 3)
+                adapter = CardAdapter(movieList)
+            }
             }
     }
 
