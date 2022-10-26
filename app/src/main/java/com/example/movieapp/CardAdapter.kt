@@ -5,13 +5,16 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.movieapp.databinding.CardCellBinding
 
-class CardAdapter (private val movies: List<Movie>)
+class CardAdapter (
+    private val movies: List<Movie>,
+    private val clickListener: MovieClickListener
+    )
     : RecyclerView.Adapter<CardViewHolder>()
 {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
         val from = LayoutInflater.from(parent.context)
         val binding = CardCellBinding.inflate(from, parent, false)
-        return CardViewHolder(binding)
+        return CardViewHolder(binding, clickListener)
     }
 
     override fun onBindViewHolder(holder: CardViewHolder, position: Int) {

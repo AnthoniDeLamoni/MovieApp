@@ -50,21 +50,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/directed_by"
-                android:textSize="10sp"
+                android:textSize="15sp"
                 android:textStyle="normal"/>
             <TextView
                 android:id="@+id/duration"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/duration"
-                android:textSize="10sp"
+                android:text="@string/cast"
+                android:textSize="15sp"
                 android:textStyle="normal"/>
             <TextView
                 android:id="@+id/release_date"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/release_year"
-                android:textSize="10sp"
+                android:textSize="15sp"
                 android:textStyle="normal"/>
 
         </LinearLayout>
@@ -81,7 +81,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Movie Description"
+            android:text="@string/movie_description"
             android:textStyle="bold"
             android:textSize="17sp"
             android:padding="5sp"/>
@@ -92,80 +92,7 @@
             android:layout_height="wrap_content"
             android:text="@string/movie_desc"
             android:padding="3sp"
-            android:layout_marginLeft="2sp"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="10sp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Cast"
-            android:textStyle="bold"
-            android:textSize="17sp"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <ImageView
-                    android:id="@+id/cast1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/cb"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Christian Bale"
-                    android:gravity="center"
-                    android:padding="5dp"/>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <ImageView
-                    android:id="@+id/cast2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/hl"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Heath Ledger"
-                    android:gravity="center"
-                    android:padding="5dp"/>
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <ImageView
-                    android:id="@+id/cast3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/go"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Gary Oldman"
-                    android:gravity="center"
-                    android:padding="5dp"/>
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-
+            android:layout_marginStart="2sp"/>
 
     </LinearLayout>
 </LinearLayout>

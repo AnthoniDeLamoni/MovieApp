@@ -6,7 +6,8 @@
     <string name="director">director</string>
     <string name="directed_by">Directed by: </string>
     <string name="movie_title">Movie Title</string>
-    <string name="duration">Duration: </string>
+    <string name="cast">Cast: </string>
     <string name="release_year">Release Year: </string>
     <string name="movie_desc">Movie desc</string>
+    <string name="movie_description">Movie Description</string>
 </resources>
