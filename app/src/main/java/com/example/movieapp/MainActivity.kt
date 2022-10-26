@@ -24,12 +24,12 @@ class MainActivity : AppCompatActivity(), MovieClickListener
             binding = ActivityMainBinding.inflate(layoutInflater)
             setContentView(binding.root)
 
-            val bottomNavigationView: BottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
-            val navController = findNavController(R.id.fragmentContainerView)
-            val appBarConfiguration = AppBarConfiguration(setOf(R.id.home, R.id.nowShowing, R.id.comingSoon))
-            setupActionBarWithNavController(navController, appBarConfiguration)
-
-            bottomNavigationView.setupWithNavController(navController)
+//            val bottomNavigationView: BottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
+//            val navController = findNavController(R.id.fragmentContainerView)
+//            val appBarConfiguration = AppBarConfiguration(setOf(R.id.home, R.id.nowShowing, R.id.comingSoon))
+//            setupActionBarWithNavController(navController, appBarConfiguration)
+//
+//            bottomNavigationView.setupWithNavController(navController)
 
             populateMovies()
 

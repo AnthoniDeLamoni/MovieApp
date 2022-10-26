@@ -10,4 +10,5 @@
     <string name="release_year">Release Year: </string>
     <string name="movie_desc">Movie desc</string>
     <string name="movie_description">Movie Description</string>
+    <string name="now_showing">Now Showing</string>
 </resources>
