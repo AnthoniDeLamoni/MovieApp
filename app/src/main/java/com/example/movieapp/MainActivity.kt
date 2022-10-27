@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(), MovieClickListener
 
             val mainActivity = this
             binding.recyclerView.apply {
-                layoutManager = GridLayoutManager(applicationContext, 3)
+                layoutManager = GridLayoutManager(applicationContext, 2)
                 adapter = CardAdapter(movieList, mainActivity)
             }
             }
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity(), MovieClickListener
             R.drawable.srbanner,
             "The Shawshank Redemption",
             "Frank Darabont",
-            "Morgan Freeman, Juki, Timesquare",
+            "Morgan Freeman, Tim Robbins, Clancy Brown",
             "1994",
             "Andy Dufresne (Tim Robbins) is sentenced to two consecutive life terms in prison for the murders of his wife and her lover and is sentenced to a tough prison. However, only Andy knows he didn't commit the crimes. While there, he forms a friendship with Red (Morgan Freeman), experiences brutality of prison life, adapts, helps the warden, etc., all in 19 years."
 
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity(), MovieClickListener
             R.drawable.tgbanner,
             "The Godfather",
             "Francis Ford Coppola",
-            "Vito Corleone, Michael Cera, Pool Dead",
+            "Al Pacino, Marlon Brando, James Caan",
             "1972",
             "Widely regarded as one of the greatest films of all time, this mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of Don Vito Corleone (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to maintain a normal relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business."
 
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity(), MovieClickListener
         movieList.add(movie2)
 
         val movie3 = Movie(
-            R.drawable.pfbanner,
+            R.drawable.pfbanner1,
             "Pulp Fiction",
             "Quentin Tarantino",
             "John Travolta, Samuel L. Jackson, Uma Thurman",
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity(), MovieClickListener
             R.drawable.fgbanner,
             "Forrest Gump",
             "Robert Zemeckis",
-            "Tom Hanks, Burning, Love",
+            "Tom Hanks, Robin Wright, Gary Sinise",
             "1994",
             "Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright)."
         )
@@ -105,7 +105,7 @@ class MainActivity : AppCompatActivity(), MovieClickListener
             R.drawable.tdkbanner,
             "The Dark Knight",
             "Christopher Nolan",
-            "Christian Bale, Heath Ledger,Morgan Freeman",
+            "Christian Bale, Heath Ledger, Morgan Freeman",
             "2008",
             "With the help of allies Lt. Jim Gordon (Gary Oldman) and DA Harvey Dent (Aaron Eckhart), Batman (Christian Bale) has been able to keep a tight lid on crime in Gotham City. But when a vile young criminal calling himself the Joker (Heath Ledger) suddenly throws the town into chaos, the caped Crusader begins to tread a fine line between heroism and vigilantism."
         )

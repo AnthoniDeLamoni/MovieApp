@@ -20,6 +20,8 @@ class DetailActivity : AppCompatActivity()
             binding.poster.setImageResource(movie.poster)
             binding.title.text = movie.title
             binding.director.text = movie.director
+            binding.cast.text = movie.cast
+            binding.releaseDate.text = movie.release
             binding.description.text = movie.desc
         }
     }
