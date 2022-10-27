@@ -111,12 +111,12 @@ class MainActivity : AppCompatActivity(), MovieClickListener
         )
         movieList.add(movie6)
 
-        movieList.add(movie1)
-        movieList.add(movie2)
-        movieList.add(movie3)
-        movieList.add(movie4)
-        movieList.add(movie5)
-        movieList.add(movie6)
+//        movieList.add(movie1)
+//        movieList.add(movie2)
+//        movieList.add(movie3)
+//        movieList.add(movie4)
+//        movieList.add(movie5)
+//        movieList.add(movie6)
     }
 
 

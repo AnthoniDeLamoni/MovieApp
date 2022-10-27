@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="10dp"
         android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/soft_white"
         android:clickable="true"
         app:cardElevation="7dp"
         android:focusable="true">
@@ -35,7 +36,7 @@
                 android:gravity="center"
                 android:text="@string/movie_title"
                 android:lines="2"
-                android:textColor="@color/purple_700"
+                android:textColor="@color/dark_blue"
                 android:textSize="15sp"
                 android:textStyle="bold"/>
 
